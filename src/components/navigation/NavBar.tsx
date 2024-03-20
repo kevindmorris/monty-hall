@@ -19,6 +19,9 @@ const CustomAppBar = styled((props: AppBarProps) => (
   maxHeight: 54,
   borderBottomStyle: "solid",
   borderBottomColor: theme.palette.divider,
+
+
+  
   borderBottomWidth: "thin",
   borderRadius: 0,
   backgroundColor: alpha(theme.palette.background.paper, 0.2),
