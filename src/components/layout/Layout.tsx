@@ -13,6 +13,9 @@ export default function Layout() {
           flexDirection: "column"
         }}
       >
+
+
+        
         <Outlet />
       </main>
     </React.Fragment>
