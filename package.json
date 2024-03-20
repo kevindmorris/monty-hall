@@ -1,5 +1,6 @@
 {
   "name": "monty-hall",
+  "description": "Monty Hall Problem React Application",
   "private": false,
   "version": "1.0.0",
   "type": "module",
