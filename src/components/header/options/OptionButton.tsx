@@ -11,6 +11,9 @@ const OptionButton = styled(ButtonBase)(({ theme }) => ({
   fontWeight: 700,
   "&:hover": {
     backgroundColor: alpha("#fff", 0.75)
+  },
+  [theme.breakpoints.down("md")]: {
+    padding: theme.spacing(0.5, 1)
   }
 }));
 

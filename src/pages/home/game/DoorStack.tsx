@@ -10,7 +10,13 @@ export default function DoorStack({
   handleClick: (e: DoorObject) => void;
 }) {
   return (
-    <Stack flexDirection="row" useFlexGap gap={4} my={2}>
+    <Stack
+      flexDirection="row"
+      useFlexGap
+      gap={4}
+      my={2}
+      justifyContent="space-evenly"
+    >
       {doors.map((e, i) => (
         <Door
           key={i}
