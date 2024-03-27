@@ -1,1 +1,1 @@
-export { default as scoreSlice } from "./scoreSlice";
+export { default as statisticsSlice } from "./statisticsSlice";

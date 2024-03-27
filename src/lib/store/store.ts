@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { scoreSlice } from "../slices";
+import { statisticsSlice } from "../slices";
 
 const store = configureStore({
   reducer: {
-    score: scoreSlice
+    statistics: statisticsSlice
   }
 });
 

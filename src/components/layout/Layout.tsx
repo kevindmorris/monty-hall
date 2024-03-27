@@ -1,20 +1,21 @@
-import React from "react";
+import Footer from "@/components/footer";
+import Header from "@/components/header";
+import { Container } from "@mui/material";
 import { Outlet } from "react-router-dom";
-import { NavBar } from "../navigation";
 
 export default function Layout() {
   return (
-    <React.Fragment>
-      <NavBar />
-      <main
-        style={{
-          minHeight: "calc(100vh - 54px)",
-          display: "flex",
-          flexDirection: "column"
-        }}
-      >
-        <Outlet />
-      </main>
-    </React.Fragment>
+    <Container
+      maxWidth="md"
+      style={{
+        minHeight: "100vh",
+        display: "flex",
+        flexDirection: "column"
+      }}
+    >
+      <Header />
+      <Outlet />
+      <Footer />
+    </Container>
   );
 }
