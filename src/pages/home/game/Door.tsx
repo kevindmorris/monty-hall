@@ -10,7 +10,7 @@ export default function Door({
     <DoorButton door={door} {...props}>
       {door.isRevealed ? (
         <Typography
-          sx={{ fontSize: { xs: "2rem", sm: "2rem", md: "5rem", lg: "5rem" } }}
+          sx={{ fontSize: { xs: "3rem", sm: "3rem", md: "5rem", lg: "5rem" } }}
         >
           {door.revealedText}
         </Typography>

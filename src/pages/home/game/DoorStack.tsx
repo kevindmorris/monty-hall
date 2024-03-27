@@ -13,9 +13,9 @@ export default function DoorStack({
     <Stack
       flexDirection="row"
       useFlexGap
-      gap={4}
       my={2}
       justifyContent="space-evenly"
+      sx={{ gap: { xs: 2, sm: 3, md: 4 } }}
     >
       {doors.map((e, i) => (
         <Door
